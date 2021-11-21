@@ -1,0 +1,180 @@
+
+[header]
+name = "Andrew Marmaduke"
+email = "andrew-marmaduke [at] uiowa [dot] edu"
+office = "Seamans Center for the Engineering Arts and Sciences, #1422"
+address = [
+    "14 MacLean Hall",
+    "Mathematical Sciences, University of Iowa",
+    "Iowa City, IA 52241"
+]
+
+[link]
+[link."Google Scholar"]
+url = "https://scholar.google.com/citations?user=vp4TSr8AAAAJ&hl=en&oi=ao"
+[link.dblp]
+url = "https://dblp.org/pid/264/6375.html"
+
+[education]
+[education.uiowa]
+address = "The University of Iowa, Iowa City, IA"
+completion = "Ongoing"
+degrees = [
+    "Ph.D. in Computer Science"
+]
+# thesis
+advisors = [ "Aaron Stump" ]
+
+[education.uakron]
+address = "The University of Akron, Akron, OH"
+completion = "May 2015"
+degrees = [
+    "M.Sc. in Applied Mathematics",
+    "B.Sc. in Applied Mathematics & Computer Science"
+]
+thesis = "A Simple Coarse-Grained Model of a Carbon Nanotube Forest Interacting with a Rigid Substrate"
+advisors = [
+    "Dmitry Golovaty",
+    "Patrick Wilber"
+]
+
+[teaching]
+[teaching.uiowa]
+[teaching.uiowa."A Principled Approach to Security and Privacy"]
+position = "TA"
+semesters = ["Fall 2021"]
+[teaching.uiowa."Logic in Computer Science"]
+position = "TA"
+semesters = ["Spring 2021"]
+[teaching.uiowa."Formal Methods in Software Engineering"]
+position = "TA"
+semesters = ["Fall 2020"]
+[teaching.uiowa."High Performance and Parallel Computing"]
+position = "TA"
+semesters = ["Fall 2020"]
+
+[teaching.uakron]
+[teaching.uakron."College Algebra"]
+position = "TA"
+semesters = ["Fall 2012", "Spring 2013"]
+[teaching.uakron."Intermediate Algebra"]
+position = "Lecturer"
+semesters = ["Fall 2013"]
+[teaching.uakron."Fundamentals of Math for Primary Educators"]
+position = "Lecturer"
+semesters = ["Spring 2014"]
+
+[work]
+[work.uiowa]
+company = "Department of Computer Science"
+address = "The University of Iowa"
+highlights = [
+    "Improved and maintained the Cedille tool",
+    "Completed the rewriting of a new front-end for the Kind2 tool"
+]
+[work.uiowa."Research Assistant"]
+start = "August 2018"
+end = "Ongoing"
+[work.uiowa."Teaching Assistant"]
+start = "August 2020"
+end = "Ongoing"
+
+[work.lock3]
+company = "Lock3 Software, LLC"
+highlights = [
+    "Invesitgated proposed C++ features (including modules and contracts)",
+    "Started an experimental implementation of the C++ contracts proposal"
+]
+[work.lock3."Developer"]
+start = "March 2018"
+end = "June 2018"
+
+[work.overdrive]
+company = "OverDrive Inc."
+address = "One OverDrive Way, Cleveland, OH"
+highlights = [
+    "Designed and developed test automation infrastructure",
+    "Designed and developed automated test suites for many company APIs and products",
+    "Improved internal tools for software testers"
+]
+[work.overdrive."Developer I"]
+start = "March 2017"
+end = "February 2018"
+[work.overdrive."Developer"]
+start = "February 2016"
+end = "March 2017"
+
+[work.preemptive]
+company = "PreEmptive Solutions"
+address = "767 Beta Dr, Mayfield, OH"
+highlights = [
+    "Modified Product APIs for internal tools to mock customer data",
+    "Investigated accuracy concerns for set cardinality approximation implementation and associated operations"
+]
+[work.preemptive."Software Engineer"]
+start = "July 2015"
+end = "December 2015"
+[work.preemptive."Quality Assurance Engineer"]
+start = "July 2014"
+end = "July 2015"
+
+[work.uakron]
+company = "Department of Mathematics"
+address = "The University of Akron"
+[work.uakron."Graduate Assistant"]
+start = "August 2012"
+end = "May 2014"
+
+[volunteer]
+[volunteer.uakron]
+company = "ACM Student Organization"
+address = "The University of Akron"
+highlights = [ 
+    "Developed contest problems and held six contests following an ICPC format for local students",
+    "Led weekly practices to improve student ability in solving algorithm and data structure focused programming problems"
+]
+start = "August 2014"
+end = "May 2018"
+
+[award]
+[award."Choose Ohio First STEM Scholar"]
+years = [2012, 2013, 2014]
+[award."Successful Participant, The Mathematical Contest in Modeling"]
+years = [2013]
+[award."20th place team at ICPC East Central Regional Qualifier"]
+years = [2012]
+[award."Ricardo Francisco Garzia Scholar"]
+years = [2012]
+
+[membership]
+[membership."Society of Industrial and Applied Mathematics (SIAM)"]
+years = [2014]
+[membership."Association for Computing Machinery (ACM)"]
+years = [2013, 2014]
+[membership."Pi Mu Epsilon"]
+
+[poster]
+[poster."A Coarse Grained Investigation of Fiber Strain and Fracture"]
+venue = "Great Lakes Bioinformatics Conference"
+year = "2014"
+location = "Cincinnati, OH"
+[poster."Carbon Nanotube Forest Energy Minimization Model with Bounding Substrates"]
+venue = "Mid Atlantic Numerical Analysis Day"
+year = "2013"
+location = "Philadelphia, PA"
+[poster."Application of Topological Gene Ontology Metric on Proteins with Altered Expressions in Lung Cancer"]
+venue = "Great Lakes Bioinformatics Conference"
+year = "2013"
+location = "Pittsburgh, PA"
+[poster."Interactive RNA Secondary Structure Graphical Interface with Free Energy Calculation"]
+venue = "Great Lakes Bioinformatics Conference"
+year = "2012"
+location = "Ann Arbor, MI"
+
+[project]
+[project.ankideckffs]
+url = "https://github.com/amarmaduke/ankideckffs"
+description = "ankideckffs (Anki Deck from File System) is a Python plugin for the Anki flashcards project. It handles loading and managing a deck of Anki cards on the file system instead of inside the Anki app."
+[project.olette]
+url = "https://github.com/amarmaduke/olette"
+description = "An optimal lambda evaluation toy for graphically exploring reductions one at a time without an oracle to decide matching of fans. Implemented with the help of Macy Schmidt."
