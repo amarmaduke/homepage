@@ -1,0 +1,130 @@
+{
+  "meta": { "theme": "kwan" },
+    "basics": {
+      "name": "Andrew Marmaduke",
+      "label": "PhD Student",
+      "email": "andrew-marmaduke@uiowa.edu",
+      "url": "https://homepage.cs.uiowa.edu/~marmaduke/",
+      "location": {
+        "address": "14 MacLean Hall",
+        "postalCode": "IA 52241",
+        "city": "Iowa City",
+        "countryCode": "US",
+        "region": "Iowa"
+      },
+      "profiles": [{
+        "network": "Github",
+        "username": "amarmaduke",
+        "url": "https://github.com/amarmaduke"
+      }, {
+        "network": "Twitter",
+        "username": "amarmaduke",
+        "url": "https://twitter.com/marmamorphism"
+      }]
+    },
+    "work": [{
+        "company": "The University of Iowa",
+        "website": "https://uiowa.edu/",
+        "position": "Graduate Assistant",
+        "startDate": "2018-08",
+        "highlights": [
+            "Improved and maintained the Cedille tool",
+            "Completed rewriting of a new front-end for the Kind2 tool",
+            "Teaching assistant for Logic in Computer Science; Formal Methods in Software Engineering; and High Performance and Parallel Computing"
+        ]
+    }, {
+        "company": "Lock3 Software, LLC",
+        "website": "http://lock3software.com/",
+        "position": "Developer",
+        "startDate": "2018-06",
+        "endDate": "2018-03",
+        "highlights": [
+            "Investigated proposed C++ features (including modules and contracts)",
+            "Started an experimental implementation of the C++ contracts proposal"
+        ]
+    }, {
+        "company": "OverDrive Inc.",
+        "website": "https://www.overdrive.com/",
+        "position": "Developer I",
+        "startDate": "2016-02",
+        "endDate": "2018-02",
+        "highlights": [
+            "Designed and developed test automation infrastructure",
+            "Designed and developed automated test suites for many company APIs and products",
+            "Improved internal tools for software testers"
+        ]
+    }, {
+        "company": "PreEmptive Solutions",
+        "website": "https://www.preemptive.com/",
+        "position": "Software Engineer",
+        "startDate": "2014-07",
+        "endDate": "2015-12",
+        "highlights": [
+            "Modified Product APIs for internal tools to mock customer data",
+            "Investigated accuracy concerns for set cardinality approximation implementation and associated operations"
+        ]
+    }, {
+        "company": "The University of Akron",
+        "website": "https://www.uakron.edu/",
+        "position": "Graduate Assistant",
+        "startDate": "2014-05",
+        "endDate": "2012-08",
+        "highlights": [
+            "Teaching assistant for College Algebra; and Intermediate Algebra",
+            "Lecturer for Fundamentals of Math for Primary Educators"
+        ]
+    }],
+    "volunteer": [{
+      "organization": "ACM Student Organization",
+      "position": "Volunteer",
+      "startDate": "2014-08",
+      "endDate": "2018-05",
+      "highlights": [
+        "Developed contest problems and held six contests following an ICPC format for local students",
+        "Led weekly practices to improve student ability in solving algorithm and data structure focused programming problems"    
+      ]
+    }],
+    "education": [{
+      "institution": "The University of Iowa",
+      "url": "https://uiowa.edu/",
+      "area": "Computer Science",
+      "studyType": "PhD",
+      "startDate": "2018-08"
+    }, {
+        "institution": "The University of Akron",
+        "url": "https://www.uakron.edu/",
+        "area": "Applied Mathematics",
+        "studyType": "Masters of Science",
+        "startDate": "2012-08",
+        "endDate": "2015-05"
+    }],
+    "awards": [{
+      "title": "Choose Ohio First STEM Scholar",
+      "summary": "Awarded 2012, 2013, and 2014"
+    }, {
+        "title": "Ricardo Francisco Garzia Scholar",
+        "date": "2012"
+      }],
+    "publications": [{
+        "name": "Simulating Large Eliminations in Cedille",
+        "url": "https://arxiv.org/pdf/2112.07817.pdf"
+    }, {
+      "name": "Zero-Cost Constructor Subtyping",
+      "url": "https://dl.acm.org/doi/10.1145/3462172.3462194"
+    }, {
+        "name": "Quotients by Idempotent Functions in Cedille",
+        "website": "https://doi.org/10.1007/978-3-030-47147-7_1"
+    }],
+    "projects": [{
+        "name": "cedille2",
+        "description": "An in progress rewrite of Cedille in Rust using modern normalization by evaluation techniques."
+    }, {
+      "name": "ankideckffs",
+      "description": "ankideckffs (Anki Deck from File System) is a Python plugin for the Anki flashcards project. It handles loading and managing a deck of Anki cards on the file system instead of inside the Anki app.",
+      "": "https://github.com/amarmaduke/ankideckffs"
+    }, {
+        "name": "olette",
+        "description": "An optimal lambda evaluation toy for graphically exploring reductions one at a time without an oracle to decide matching of fans. Implemented with the help of Macy Schmidt.",
+        "url": "https://github.com/amarmaduke/olette"
+      }]
+  }

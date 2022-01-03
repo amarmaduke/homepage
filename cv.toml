@@ -82,7 +82,7 @@ end = "Ongoing"
 [work.lock3]
 company = "Lock3 Software, LLC"
 highlights = [
-    "Invesitgated proposed C++ features (including modules and contracts)",
+    "Investigated proposed C++ features (including modules and contracts)",
     "Started an experimental implementation of the C++ contracts proposal"
 ]
 [work.lock3."Developer"]
