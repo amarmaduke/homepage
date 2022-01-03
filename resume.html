@@ -1,0 +1,570 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Andrew Marmaduke</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Andrew Marmaduke
+					</h1>
+					<h2>
+						PhD Student
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">andrew-marmaduke@uiowa.edu</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://homepage.cs.uiowa.edu/~marmaduke">https://homepage.cs.uiowa.edu/~marmaduke</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I am a Computer Science PhD student working under Dr. Aaron Stump. I am interested in programming language theory, logic, and the formalization of mathematics. My current research revolves around Cedille&#x27;s unique feature set and how it can be used to construct powerful features of other dependently typed languages.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/amarmaduke">amarmaduke</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/marmamorphism">marmamorphism</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Google Scholar
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://scholar.google.com/citations?user=vp4TSr8AAAAJ&amp;hl=en">Andrew Marmaduke</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						dblp
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://dblp.org/pid/264/6375.html">Andrew Marmaduke</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The University of Iowa</span>
+					<span class="date">
+						2018-08 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://uiowa.edu">https://uiowa.edu</a>
+				</div>
+				<div class="position">
+					Graduate Assistant
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Improved and maintained the Cedille tool</li>
+					<li class="bullet">Completed rewriting of a new front-end for the Kind2 tool</li>
+					<li class="bullet">Teaching assistant for Logic in Computer Science; Formal Methods in Software Engineering; and High Performance and Parallel Computing</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Lock3 Software, LLC</span>
+					<span class="date">
+						2018-06 — 2018-03
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://lock3software.com">http://lock3software.com</a>
+				</div>
+				<div class="position">
+					Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Investigated proposed C++ features (including modules and contracts)</li>
+					<li class="bullet">Started an experimental implementation of the C++ contracts proposal</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>OverDrive Inc.</span>
+					<span class="date">
+						2016-02 — 2018-02
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://overdrive.com">https://overdrive.com</a>
+				</div>
+				<div class="position">
+					Developer I
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed and developed test automation infrastructure</li>
+					<li class="bullet">Designed and developed automated test suites for many company APIs and products</li>
+					<li class="bullet">Improved internal tools for software testers</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>PreEmptive Solutions</span>
+					<span class="date">
+						2014-07 — 2015-12
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://preemptive.com">https://preemptive.com</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Modified Product APIs for internal tools to mock customer data</li>
+					<li class="bullet">Investigated accuracy concerns for set cardinality approximation implementation and associated operations</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The University of Akron</span>
+					<span class="date">
+						2012-08 — 2014-05
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://uakron.edu">https://uakron.edu</a>
+				</div>
+				<div class="position">
+					Graduate Assistant
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Teaching assistant for College Algebra; and Intermediate Algebra</li>
+					<li class="bullet">Lecturer for Fundamentals of Math for Primary Educators</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ACM Student Organization</span>
+					<span class="date">
+						2014-08 — 2018-05
+					</span>
+				</h4>
+				<div class="position">
+					Volunteer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed contest problems and held six contests following an ICPC format for local students</li>
+					<li class="bullet">Led weekly practices to improve student ability in solving algorithm and data structure focused programming problems</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The University of Iowa</span>
+					<span class="date">
+						2018-08 — 
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Doctor of Philosophy
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The University of Akron</span>
+					<span class="date">
+						2012-08 — 2015-05
+					</span>
+				</h4>
+				<div class="area">
+					Applied Mathematics
+				</div>
+				<div class="studyType">
+					Masters of Science
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Choose Ohio First STEM Scholar</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014
+				</div>
+				<div class="summary">
+					Awarded 2012, 2013, and 2014
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Successful Participant</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2013
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>The Mathematical Contest in Modeling</strong>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>20th place team at ICPC East Central Regional Qualifier</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2012
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ricardo Francisco Garzia Scholar</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2012
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Simulating Large Eliminations in Cedille</span>
+					<span class="date">
+						
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://arxiv.org/pdf/2112.07817.pdf"></a>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Zero-Cost Constructor Subtyping</span>
+					<span class="date">
+						
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://dl.acm.org/doi/10.1145/3462172.3462194"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>IFL 2020, ACM DL</strong>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Quotients by Idempotent Functions in Cedille</span>
+					<span class="date">
+						
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://doi.org/10.1007/978-3-030-47147-7_1"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>TFP 2019, Springer</strong>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+	
+
+	</div>
+	
+	</body>
+</html>

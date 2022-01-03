@@ -1,10 +1,10 @@
 {
-  "meta": { "theme": "kwan" },
     "basics": {
       "name": "Andrew Marmaduke",
       "label": "PhD Student",
       "email": "andrew-marmaduke@uiowa.edu",
-      "url": "https://homepage.cs.uiowa.edu/~marmaduke/",
+      "website": "https://homepage.cs.uiowa.edu/~marmaduke",
+      "summary": "I am a Computer Science PhD student working under Dr. Aaron Stump. I am interested in programming language theory, logic, and the formalization of mathematics. My current research revolves around Cedille's unique feature set and how it can be used to construct powerful features of other dependently typed languages.",
       "location": {
         "address": "14 MacLean Hall",
         "postalCode": "IA 52241",
@@ -18,13 +18,21 @@
         "url": "https://github.com/amarmaduke"
       }, {
         "network": "Twitter",
-        "username": "amarmaduke",
+        "username": "marmamorphism",
         "url": "https://twitter.com/marmamorphism"
+      }, {
+        "network": "Google Scholar",
+        "username": "Andrew Marmaduke",
+        "url": "https://scholar.google.com/citations?user=vp4TSr8AAAAJ&hl=en"
+      }, {
+        "network": "dblp",
+        "username": "Andrew Marmaduke",
+        "url": "https://dblp.org/pid/264/6375.html"
       }]
     },
     "work": [{
         "company": "The University of Iowa",
-        "website": "https://uiowa.edu/",
+        "website": "https://uiowa.edu",
         "position": "Graduate Assistant",
         "startDate": "2018-08",
         "highlights": [
@@ -34,7 +42,7 @@
         ]
     }, {
         "company": "Lock3 Software, LLC",
-        "website": "http://lock3software.com/",
+        "website": "http://lock3software.com",
         "position": "Developer",
         "startDate": "2018-06",
         "endDate": "2018-03",
@@ -44,7 +52,7 @@
         ]
     }, {
         "company": "OverDrive Inc.",
-        "website": "https://www.overdrive.com/",
+        "website": "https://overdrive.com",
         "position": "Developer I",
         "startDate": "2016-02",
         "endDate": "2018-02",
@@ -55,7 +63,7 @@
         ]
     }, {
         "company": "PreEmptive Solutions",
-        "website": "https://www.preemptive.com/",
+        "website": "https://preemptive.com",
         "position": "Software Engineer",
         "startDate": "2014-07",
         "endDate": "2015-12",
@@ -65,10 +73,10 @@
         ]
     }, {
         "company": "The University of Akron",
-        "website": "https://www.uakron.edu/",
+        "website": "https://uakron.edu",
         "position": "Graduate Assistant",
-        "startDate": "2014-05",
-        "endDate": "2012-08",
+        "startDate": "2012-08",
+        "endDate": "2014-05",
         "highlights": [
             "Teaching assistant for College Algebra; and Intermediate Algebra",
             "Lecturer for Fundamentals of Math for Primary Educators"
@@ -86,13 +94,13 @@
     }],
     "education": [{
       "institution": "The University of Iowa",
-      "url": "https://uiowa.edu/",
+      "website": "https://uiowa.edu",
       "area": "Computer Science",
-      "studyType": "PhD",
+      "studyType": "Doctor of Philosophy",
       "startDate": "2018-08"
     }, {
         "institution": "The University of Akron",
-        "url": "https://www.uakron.edu/",
+        "website": "https://uakron.edu",
         "area": "Applied Mathematics",
         "studyType": "Masters of Science",
         "startDate": "2012-08",
@@ -100,31 +108,41 @@
     }],
     "awards": [{
       "title": "Choose Ohio First STEM Scholar",
+      "date": "2014",
       "summary": "Awarded 2012, 2013, and 2014"
+    }, {
+      "title": "Successful Participant",
+      "date": "2013",
+      "awarder": "The Mathematical Contest in Modeling"
+    }, {
+      "title": "20th place team at ICPC East Central Regional Qualifier",
+      "date": "2012"
     }, {
         "title": "Ricardo Francisco Garzia Scholar",
         "date": "2012"
       }],
     "publications": [{
         "name": "Simulating Large Eliminations in Cedille",
-        "url": "https://arxiv.org/pdf/2112.07817.pdf"
+        "website": "https://arxiv.org/pdf/2112.07817.pdf"
     }, {
       "name": "Zero-Cost Constructor Subtyping",
-      "url": "https://dl.acm.org/doi/10.1145/3462172.3462194"
+      "website": "https://dl.acm.org/doi/10.1145/3462172.3462194",
+      "publisher": "IFL 2020, ACM DL"
     }, {
         "name": "Quotients by Idempotent Functions in Cedille",
-        "website": "https://doi.org/10.1007/978-3-030-47147-7_1"
+        "website": "https://doi.org/10.1007/978-3-030-47147-7_1",
+        "publisher": "TFP 2019, Springer"
     }],
     "projects": [{
         "name": "cedille2",
-        "description": "An in progress rewrite of Cedille in Rust using modern normalization by evaluation techniques."
+        "summary": "An in progress rewrite of Cedille in Rust using modern normalization by evaluation techniques."
     }, {
       "name": "ankideckffs",
-      "description": "ankideckffs (Anki Deck from File System) is a Python plugin for the Anki flashcards project. It handles loading and managing a deck of Anki cards on the file system instead of inside the Anki app.",
-      "": "https://github.com/amarmaduke/ankideckffs"
+      "summary": "ankideckffs (Anki Deck from File System) is a Python plugin for the Anki flashcards project. It handles loading and managing a deck of Anki cards on the file system instead of inside the Anki app.",
+      "url": "https://github.com/amarmaduke/ankideckffs"
     }, {
         "name": "olette",
-        "description": "An optimal lambda evaluation toy for graphically exploring reductions one at a time without an oracle to decide matching of fans. Implemented with the help of Macy Schmidt.",
+        "summary": "An optimal lambda evaluation toy for graphically exploring reductions one at a time without an oracle to decide matching of fans. Implemented with the help of Macy Schmidt.",
         "url": "https://github.com/amarmaduke/olette"
       }]
   }
